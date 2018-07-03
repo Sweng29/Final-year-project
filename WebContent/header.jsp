@@ -19,8 +19,17 @@
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 	<!-- //font -->
+	<!-- Datatable -->
+	<link href="css/dataTables.bootstrap.min.css" rel="stylesheet">
+	<link href="css/jquery.dataTables.min.css" rel="stylesheet">
+	
 	<script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/custom.js"></script>
+	
+	<script src="js/jquery.dataTables.min.js"></script>
+	<script src="js/dataTables.bootstrap.min.js"></script>
+	<!-- //Datatable -->
 </head>
 <body>
 <div class="header-top-w3layouts">
