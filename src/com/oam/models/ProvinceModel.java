@@ -41,5 +41,10 @@ public class ProvinceModel implements Serializable{
 	public void setProvinceName(String provinceName) {
 		this.provinceName = provinceName;
 	}
-
+	public Set<CityModel> getCities() {
+		return cities;
+	}
+	public void setCities(Set<CityModel> cities) {
+		this.cities = cities;
+	}
 }
