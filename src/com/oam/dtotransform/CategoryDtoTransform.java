@@ -5,8 +5,8 @@ import com.oam.models.ProductCategoryModel;
 
 public class CategoryDtoTransform {
     
-	CategoryDTO categoryDTO = new CategoryDTO();
-	public CategoryDTO transform(ProductCategoryModel productCategoryModel){
+	public static CategoryDTO transform(ProductCategoryModel productCategoryModel){
+		CategoryDTO categoryDTO = new CategoryDTO();
 		
 		if(productCategoryModel.getProductCategoryId()!=null){
 			
